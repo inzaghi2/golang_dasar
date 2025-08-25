@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func getcompleteName() (lastName, middleName, lastName string) {
+	firstName = "rifqi"
+	middleName = "inzaghi"
+	lastName = "s.kom"
+	return lastName, middleName, lastName
+
+}
+
+func main() {
+	a, b, c := getcompleteName()
+	fmt.Println(a, b, c)
+
+}
